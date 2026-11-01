@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "kuro",
+  "version": "${version}",
+  "name": "Kuro",
+  "description": "Anarsi sunucusu icin client-side yardimci mod. NanoVG tabanli siyah/modern HUD ve menu, Freecam, Freelook (Fly, AutoTotem, AutoCrystal, StorageESP, BlockESP, PlayerESP, BaseList, XRay).",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["kuro.Kuro"]
+  },
+  "mixins": ["kuro.mixins.json", "kuro.extra.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
